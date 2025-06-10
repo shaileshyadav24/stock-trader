@@ -48,7 +48,7 @@ A modern stock tracking dashboard built with **Next.js**, **TypeScript**, and **
     npm install
     ```
 
-3. **Create a `.env.local` file in the root directory:**
+3. **Create a `.env` file in the root directory:**
     ```env
     NEXT_PUBLIC_ALPHA_VANTAGE_API_KEY=your_api_key_here
     ```
@@ -65,11 +65,11 @@ A modern stock tracking dashboard built with **Next.js**, **TypeScript**, and **
 ## Project Structure
 
 ```
-stock-tracker-dashboard/
+stock-tracker/
 ├── public/               # Static assets
 ├── src/
 │   ├── app/              # Next.js app router
-│   │   ├── dashboard/    # Dashboard page
+│   │   ├── page/         # Dashboard page
 │   │   ├── providers.tsx # TanStack Query provider
 │   │   └── layout.tsx    # Root layout
 │   ├── components/       # Reusable components
@@ -83,7 +83,7 @@ stock-tracker-dashboard/
 │   ├── utils/            # Utility functions
 │   │   └── api.ts        # API client
 │   └── styles/           # Global styles
-├── .env.local            # Environment variables
+├── .env            # Environment variables
 ├── package.json
 └── README.md
 ```
@@ -94,7 +94,7 @@ stock-tracker-dashboard/
 
 ### Environment Variables
 
-Create a `.env.local` file with the following:
+Create a `.env` file with the following:
 
 ```env
 # Alpha Vantage API Key
