@@ -50,7 +50,7 @@ A modern stock tracking dashboard built with **Next.js**, **TypeScript**, and **
 
 3. **Create a `.env.local` file in the root directory:**
     ```env
-    ALPHA_VANTAGE_API_KEY=your_api_key_here
+    NEXT_PUBLIC_ALPHA_VANTAGE_API_KEY=your_api_key_here
     ```
 
 4. **Run the development server:**
@@ -98,7 +98,7 @@ Create a `.env.local` file with the following:
 
 ```env
 # Alpha Vantage API Key
-ALPHA_VANTAGE_API_KEY=your_api_key_here
+NEXT_PUBLIC_ALPHA_VANTAGE_API_KEY=your_api_key_here
 ```
 
 ### API Rate Limits
