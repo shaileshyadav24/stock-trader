@@ -1,4 +1,4 @@
-# Stock Tracker Dashboard
+# Stock Tracker
 
 A modern stock tracking dashboard built with **Next.js**, **TypeScript**, and **Recharts** for data visualization. Monitor real-time stock prices, track historical performance, and analyze market trends.
 
