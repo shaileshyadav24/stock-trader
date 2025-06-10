@@ -1,7 +1,7 @@
 import { StockData, HistoricalData } from '@/types/stock';
 import axios from 'axios';
 
-const API_KEY = 'NNSQR9DT0NOGJUNY';
+const API_KEY = process.env.ALPHA_VANTAGE_API_KEY;
 const BASE_URL = 'https://www.alphavantage.co/query';
 
 export const fetchStockData = async (symbol: string): Promise<StockData> => {
